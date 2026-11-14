@@ -1,0 +1,57 @@
+{
+  "type": "flying",
+  "flying": true,
+  "alwaysUnlocked": true,
+
+  "name": "Zap",
+
+  "health": 280,
+  "armor": 50,
+
+  "speed": 5.0,
+  "hitSize": 8,
+
+  "engineOffset": 7,
+  "engineSize": 3,
+
+  "range": 160,
+  "weapons": [
+    {
+      "name": "zap-missiles",
+
+      "x": 6,
+      "y": -2,
+
+      "shootY": 5,
+      
+      "shoot": {
+        "shots": 10
+      },
+      "reload": 3,
+      "innacuracy": 20",
+      "rotate": false,
+
+      "bullet": {
+        "type": "LightningBulletType",
+
+        "damage": 10,
+        "speed": 8,
+        "lifetime": 20,
+
+        "width": 6,
+        "height": 10
+      }
+    }
+  ],
+"research":{
+    "parent":"crush",
+    "objectives": [
+      {
+        "type": "sectorCapture",
+        "preset": "valley"
+      }
+    ]
+  }
+
+
+}
