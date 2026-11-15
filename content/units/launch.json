@@ -1,0 +1,74 @@
+{
+  "type": "ItemTurret",
+
+  "name": "Launch",
+  "category": "turret",
+
+  "size": 5,
+  "health": 1400,
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 180
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "graphite",
+      "amount": 80
+    }
+  ],
+
+  "range": 220,
+  "reload": 100,
+
+  "ammoTypes": {
+    "graphite": {
+      "type": "BasicBulletType",
+
+      "sprite": "circle-bullet",
+
+      "damage": 22,
+      "speed": 7,
+      "lifetime": 32,
+      "despawnUnit": "piercer",
+      "width": 14,
+      "height": 14,
+      "hitSize": 14
+    },
+    "silicon": {
+      "type": "BasicBulletType",
+
+      "sprite": "circle-bullet",
+
+      "damage": 22,
+      "speed": 7,
+      "lifetime": 32,
+      "despawnUnit": "crush",
+      "width": 14,
+      "height": 14,
+      "hitSize": 14
+    },
+    "surge-dust": {
+      "type": "BasicBulletType",
+
+      "sprite": "circle-bullet",
+
+      "damage": 22,
+      "speed": 7,
+      "lifetime": 32,
+      "despawnUnit": "frame"
+      "width": 14,
+      "height": 14,
+      "hitSize": 14
+    }
+
+
+  }
+  "research":{
+    "parent":"revolve"
+  }
+}
